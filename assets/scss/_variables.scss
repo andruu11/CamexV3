@@ -1,0 +1,48 @@
+//------Patron de colores------------//
+$primero : #272D39;
+$segundo : #FF6E40;
+$tercero : #212121;
+$cuarto  : #424242;
+$quinto  : #272D39;
+$sexto   : #E0E0E0;
+$septimo : #FAFAFA;
+$octavo : #F9F9F9;
+$noveno: #DD4E4A;
+$decimo: #FFFFFF;
+$once: #EAEAEA;
+$contenido: #F6F6F6;
+$rse: #56A200;
+$exp: #F0993F;
+$emp: #DD4E4A;
+//---------Fuentes-----------///
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: 'SegoeUI';
+    src: url(../fonts/SegoeUI.ttf);
+}
+@font-face{
+   font-family: "Myriad";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/Myriad-Pro_31655.ttf);
+}
+@font-face{
+   font-family: "SegoeUI";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fonts/SegoeUI.ttf);
+}
+@import "../css/fontawesome-all.min.css";
+
+$roboto-black: 'Roboto Black', serif;
+$roboto-bold: 'Roboto Bold', serif;
+$roboto-medium: 'Roboto Medium', serif;
+$roboto-regular: 'Roboto Regular', serif;
+$roboto-light: 'Roboto Light', serif;
+$roboto-thin: 'Roboto Thin', serif;
+$caviar-dreams: 'Caviar Dreams', serif;
+$myriad-pro: 'MyriadPro-Regular', serif;
+$segoe: 'SegoeUI', serif;

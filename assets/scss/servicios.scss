@@ -1,0 +1,85 @@
+@import '_variables';
+//seccion servicios
+.servicios{
+	background:$decimo;
+	color:$cuarto;
+	padding-bottom:5rem;
+}
+.servicios img{
+	flex: 0 0 65px;
+	overflow:hidden;
+	margin-right: 1rem;
+}
+.servicios article{
+	display:flex;
+	align-items:center;
+	margin:1.2rem 0;
+}
+.servicios h3{
+	margin: 0;
+	font-size:1rem;
+	flex:1 1 auto;
+}
+.servicios h3 a{
+	color: $cuarto;
+	text-decoration:none;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+	text-decoration:none;
+}
+.servicios h3 a::after{
+	content: "\f105";
+	font-family: "Font Awesome 5 Free";
+	font-size: 3.5rem;
+	margin-left: 1rem;
+	opacity: .5;
+	position:relative;
+	left: 0;
+	transition: all .5s ease;
+}
+.servicios h3 a:hover::after{
+	left: -.5rem;
+	opacity:1;
+	color: $segundo;
+}
+//media queries para desktop
+@media (min-width: 768px){ 
+.servicios article{
+	margin: 1rem 0;
+	flex-direction:column;
+	align-items: 0;
+	text-align: center;
+	justify-content:space-between;
+}
+.servicios img{
+	flex: 0 0 160px;
+	overflow: hidden;
+	margin-right: 0;
+	margin-bottom: 3rem;
+	transition: all 1s ease;
+}
+.servicios article:hover img{
+	transform: rotateY(360deg);
+	transform-style: preserve-3d;
+}
+.servicios h3 a::after{
+	display:none;
+}
+.servicios h3{
+	font-size: 1.5rem;
+	padding-bottom: 3rem;
+
+}
+.servicios p {
+	margin-top: auto;
+
+}
+.btn-revista{
+	padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+}
+.cronograma a img {
+    width: 80px;}
+}

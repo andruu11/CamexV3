@@ -1,0 +1,110 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: "Myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Myriad-Pro_31655.ttf); }
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/SegoeUI.ttf); }
+
+.eventos {
+  background-color: #333333; }
+
+.titulo-seccion-eventos {
+  color: #FFFFFF; }
+
+.card {
+  border-radius: 0.0rem;
+  width: 200px; }
+
+.card-img-top {
+  border-top-left-radius: calc(0.0rem - 0px);
+  border-top-right-radius: calc(0.0rem - 0px); }
+
+.owl-carousel .owl-item img {
+  width: 100%;
+  padding: 1px; }
+
+.card .card-title {
+  height: 75px; }
+
+li.list-group-item {
+  font-size: .6rem; }
+
+.card .btn {
+  border-radius: 0px; }
+
+.eventos .owl-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: .5rem;
+  margin-bottom: .5rem; }
+
+.eventos .owl-prev,
+.eventos .owl-next {
+  font-size: 2.5rem;
+  margin: 0 .5rem;
+  color: #FAFAFA;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease; }
+
+.eventos .owl-prev:hover,
+.eventos .owl-next:hover {
+  color: #DD4E4A; }
+
+@media (min-width: 320px) {
+  .card {
+    width: 310px; }
+  .owl-carousel .owl-item img {
+    width: 100%; }
+  li.list-group-item {
+    font-size: .8rem; } }
+
+@media (min-width: 400px) {
+  .card {
+    width: 360px; }
+  .owl-carousel .owl-item img {
+    width: 100%; }
+  li.list-group-item {
+    font-size: .8rem; } }
+
+@media (min-width: 465px) {
+  .card {
+    width: 200px; }
+  .owl-carousel .owl-item img {
+    width: 100%; }
+  li.list-group-item {
+    font-size: .6rem; } }
+
+@media (min-width: 760px) {
+  .card {
+    width: 300px; }
+  .owl-carousel .owl-item img {
+    width: 100%; }
+  li.list-group-item {
+    font-size: .8rem; } }
+
+@media (min-width: 1200px) {
+  .card {
+    width: 320px; }
+  .owl-carousel .owl-item img {
+    width: 320px; }
+  li.list-group-item {
+    font-size: .8rem; } }

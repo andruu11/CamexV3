@@ -1,0 +1,211 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: "Myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Myriad-Pro_31655.ttf); }
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/SegoeUI.ttf); }
+
+.bienvenidos {
+  background: url("../img/camex_portada.jpg") no-repeat center top;
+  color: #FFFFFF;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.titulo-banner-principal {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  font-family: 'Myriad'; }
+
+.texto-encabezado {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; }
+
+.contenido-banner {
+  padding-top: .8rem;
+  font-family: "Roboto Light", serif; }
+
+.btn-revista {
+  padding: 20px 5px;
+  margin-top: 2.8rem;
+  -webkit-transition: all 3s ease;
+  -o-transition: all 3s ease;
+  transition: all 3s ease; }
+
+.letra-boton-revista {
+  font-size: .8rem; }
+
+.btn-primary {
+  color: #FAFAFA;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: #DD4E4A; }
+
+.btn-primary:hover {
+  color: #424242;
+  background-color: rgba(255, 242, 255, 0.5);
+  border-color: #DD4E4A; }
+
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #424242;
+  background-color: rgba(255, 242, 255, 0.5);
+  border-color: #DD4E4A; }
+
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite; }
+
+.flecha-bajar a {
+  display: inline-block;
+  font-size: 4rem;
+  color: #FAFAFA;
+  -webkit-animation: swing 1s ease-in-out infinite;
+  animation: swing 1s ease-in-out infinite; }
+
+@media (min-width: 768px) {
+  .bienvenidos {
+    background: url("../img/camex_portada.jpg") no-repeat center top;
+    color: #FAFAFA;
+    background-size: cover;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .btn-revista {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem; } }
+
+@media (min-width: 992px) {
+  .titulo-banner-principal {
+    font-size: 3.5rem;
+    padding-top: 7rem; }
+  .texto-encabezado {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size: 1.1rem; }
+  .contenido-banner {
+    padding-top: 1rem; }
+  .btn-revista {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem; }
+  .letra-boton-revista {
+    font-size: 1.1rem; } }
+
+@media (max-width: 318px) {
+  .letra-boton-revista {
+    font-size: .6rem; } }
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .bienvenidos {
+    height: 150%; }
+  .btn-revista {
+    margin-top: .2rem; }
+  .btn-revista {
+    padding: 15px 10px;
+    margin-top: .1rem;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease; }
+  .titulo-banner-principal {
+    font-size: 2rem;
+    padding-top: .3rem; }
+  .flecha-bajar a {
+    font-size: 2rem; } }
+
+@media (width: 812px) and (orientation: landscape) {
+  .bienvenidos {
+    height: 100%; }
+  .btn-revista {
+    margin-top: .2rem; }
+  .btn-revista {
+    padding: 15px 10px;
+    margin-top: .1rem;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease; }
+  .titulo-banner-principal {
+    font-size: 2rem;
+    padding-top: .3rem; }
+  .flecha-bajar a {
+    font-size: 2rem; } }
+
+@-webkit-keyframes swing {
+  from {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes swing {
+  from {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  50% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px); }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@-moz-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1.0; } }
+
+@-webkit-keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1.0; } }
+
+@keyframes parpadeo {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1.0; } }

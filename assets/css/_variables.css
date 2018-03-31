@@ -1,0 +1,12 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: 'Myriad';
+  src: url(../fonts/Myriad-Pro-Condensed.ttf), url(../fonts/Myriad-Pro-Regular.ttf), url(../fonts/Myriad-Pro-Semibold.ttf), url(../fonts/Myriad-Pro-Black-Condensed.ttf), url(../fonts/Myriad-Pro-Bold-Condensed.ttf), url(../fonts/Myriad-Pro-Light-Condensed.ttf), url(../fonts/Myriad-Pro-Bold-SemiExtended.ttf), url(../fonts/Myriad-Pro-Light-SemiCondensed.ttf); }

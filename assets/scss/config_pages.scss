@@ -1,0 +1,207 @@
+@import '_variables';
+body{
+	background-color:$once;
+	overflow-x: hidden;
+	color:#424242;
+}
+//modificando las grillas
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px 0px;
+}
+//seccion menu
+.bienvenidos{
+	color: $septimo;
+	display:flex;
+	flex-direction:column;
+}
+.encabezado{
+	background:$primero;
+	color: $sexto;
+	padding: .5rem 0;
+}
+.encabezado .container-fluid{
+	display:flex;
+	align:center;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.encabezado .logo img{
+	width: 150px;
+	height: auto;
+}
+/*Estilos para el boton:menu*/
+.boton-menu{
+	border: 0;
+	font-size:2rem;
+	margin:0;
+	padding: 0 .5rem;
+  	background: transparent;
+  	color: $septimo;
+  	margin-left:auto;
+}
+.boton-menu:focus{
+	outline:0;
+}
+.boton-menu:hover{
+	color: $noveno;
+	border: 1px solid $septimo;
+    border-radius: 5px;
+}
+/* Menu principal */
+#menu-principal{
+	flex: 1 1 100%;
+	font-family: 'SegoeUI';
+}
+#menu-principal ul{
+	padding:0;
+	margin: 1rem 0 0 0;
+	list-style:none;
+}
+#menu-principal a{
+	display:block;
+	padding: .8rem 0;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	color:$septimo;
+	border-top: 1px solid $sexto;	
+}
+#menu-principal a:hover,
+#menu-principal ul li.active a
+{
+	color: $noveno;
+}
+//footer
+.footer{
+	background:$primero;
+	color:$septimo;
+	padding-bottom:5rem;
+	
+}
+.clase-social{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	text-align:center;
+}
+.clase-social i{
+	text-decoration:none;
+	color: $septimo;
+	padding-bottom:3rem;
+}
+.clase-social ul{
+	list-style:none;
+	text-align:center;
+}
+.clase-social p{
+	font-size: .7rem;
+}
+.clase-social .a{
+	flex:1 0 50%;
+}
+.clase-social .z{
+	flex:1 0 50%;
+}
+p .copyrigth{
+	flex:1 1 100%;
+}
+//margen
+.margen{
+	padding-top:2rem;
+}
+hr.linea-seccion{
+	background-color: $noveno;
+	height: .2rem;
+	margin-bottom: 1.5rem;
+}
+@media (min-width: 440px){
+margin-bottom: 1.5rem;
+}
+@media (min-width: 720px){
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px 15px;
+ }
+hr.linea-seccion{
+	margin-bottom: 3rem;
+}
+}
+@media (min-width: 768px){
+.bienvenidos{
+	color: $septimo;
+	background-size: cover;
+	display:flex;
+	flex-direction:column;
+}
+#menu-principal{
+	height: auto !important;
+	display: block;
+	flex:0 1 auto;
+	margin-left:auto;
+	order:1;
+	margin-rigth:0px;
+}
+#menu-principal ul{
+	display: flex;
+	margin: 0 0 0 0;
+
+}
+#menu-principal ul li a{
+	padding: .8rem;
+	text-transform: capitalize;
+	margin: 0 .3rem;
+	border-top: 0px;
+	border-bottom:4px solid transparent;
+	font-size: 1rem;
+}
+#menu-principal ul li.active a,
+#menu-principal ul li a:hover {
+	color: $noveno;
+	border-bottom: 4px solid;
+}
+}
+@media (min-width: 992px){
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px 20px;
+
+}
+}
+@media (min-width: 1200px){
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px 20px;
+    }
+}
+
+@media (min-width: 1350px){
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin: 0px 150px;
+    }
+
+}
+//mediaqueries para responsive
+@media (max-width: 281px) { 
+.clase-social .z{
+	flex:1 0 51%;
+}
+}
+
+
+
+
+
+
+
