@@ -20,7 +20,8 @@
   src: url(../fonts/SegoeUI.ttf); }
 
 .directorio-empresarial {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  padding-bottom: 3rem; }
 
 a {
   text-decoration: none; }
@@ -149,6 +150,21 @@ figure .trasera p {
   font-family: 'Open Sans', sans-serif;
   line-height: 22px;
   font-size: 14px; }
+
+.boton-empresa a .btn .btn-secondary .btn-lg {
+  text-decoration: none;
+  margin-bottom: 5rem; }
+
+.btn-outline-secondary {
+  color: #DD4E4A;
+  background-color: transparent;
+  border-color: #DD4E4A;
+  border-radius: 0px; }
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+  color: #F9F9F9;
+  background-color: #FF6E40;
+  border-color: #FF6E40; }
 
 @media screen and (max-width: 992px) {
   figure .trasera {

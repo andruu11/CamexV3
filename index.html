@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="assets/css/bienvenidos.css" type="text/css">
     <link rel="stylesheet" href="assets/css/servicios.css" type="text/css">
     <link rel="stylesheet" href="assets/css/business-directory.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/pubs_index.css" type="text/css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/schedule.css" type="text/css">
+
     
     <!-- font Awesome -->
     <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" type="text/css">
@@ -44,8 +46,8 @@
                 <ul>
                     <li class="active"><a href="">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="">Información</a></li>
                     <li><a href="">Guia de Exportación</a></li>
+                    <li><a href="">Cronograma</a></li>
                     <li><a href="contactos.html">Contactos</a></li>
                 </ul>
             </nav>
@@ -175,17 +177,43 @@
     </section>
     <aside class="margen">
         <div class="seccion-publicidad container-fluid">
-            <video width="100%" height="auto" muted="" autoplay="" loop="" preload="">
+            <div id="publicidad_video" class="carousel slide" data-ride="carousel" data-interval="22000">
+  
+  <div class="carousel-inner" role="listbox">
+     <ol class="carousel-indicators">
+            <li data-target="#publicidad_video" data-slide-to="0" class="active"></li>
+            <li data-target="#publicidad_video" data-slide-to="1"></li>
+            <li data-target="#publicidad_video" data-slide-to="2"></li>
+          </ol>
+    <div class="carousel-item active">
+      <video width="100%" height="auto" muted="" autoplay="" loop="" preload="">
                 <source src="assets/media/banner.mp4" type="video/mp4">
                 <source src="assets/media/banner.webm" type="video/webm">
             </video>
+    </div>
+    <div class="carousel-item">
+     <video width="100%" height="auto" muted="" autoplay="" loop="" preload="">
+                <source src="assets/media/banner2.mp4" type="video/mp4">
+            </video>
+    </div>
+    <div class="carousel-item">
+      <video width="100%" height="auto" muted="" autoplay="" loop="" preload="">
+                <source src="assets/media/banner.mp4" type="video/mp4">
+                <source src="assets/media/banner.webm" type="video/webm">
+            </video>
+    </div>
+  </div>
+ 
+</div>
+           <br><br>
+          
         </div>
         <br><br>
     </aside>
     <section class="directorio-empresarial">
         <div class="container-fluid">
             <h2 class="h3 text-center font-weight-bold titulo-secciones">Directorio Empresarial<hr class="linea-seccion"></h2>
-            <div class="row">
+         
                 <div class="contenedor">
                 <div class="contenedor_tarjeta">
             <a href="http://www.purecotton.com.bo/" target="_blank">
@@ -236,10 +264,13 @@
             </a>
         </div>
                 </div>
+           
+            <div class="boton-empresa text-center">
+            <a href="#" class="btn btn-outline-secondary btn-lg"><span class="texto-boton"> Directorio Empresarial</span></a>
             </div>
         </div>
     </section>
-   
+  
     <section class="footer margen" role="contentinfo">
         <div class="container-fluid">
             <div class="row">

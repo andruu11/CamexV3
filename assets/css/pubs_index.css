@@ -1,0 +1,27 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: "Myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Myriad-Pro_31655.ttf); }
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/SegoeUI.ttf); }
+
+.carousel-indicators li {
+  height: 5px;
+  background-color: #424242; }
+
+.carousel-indicators .active {
+  background-color: #DD4E4A; }

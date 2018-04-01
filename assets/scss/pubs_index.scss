@@ -1,0 +1,9 @@
+@import '_variables';
+.carousel-indicators li {
+	height:5px;
+    background-color: $cuarto;
+    //box-shadow: inset 1px 1px 1px 1px rgba(221,78,74,0.5);    
+}
+.carousel-indicators .active {
+    background-color: $noveno;
+}

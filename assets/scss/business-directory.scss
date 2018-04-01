@@ -1,6 +1,7 @@
 @import '_variables';
 .directorio-empresarial{
 	background-color: $decimo;
+	padding-bottom:3rem;
 }
 
 a {
@@ -76,6 +77,7 @@ figure .trasera {
 	overflow: auto;
 	
 }
+
 .contenedor_tarjeta:nth-child(1) figure .trasera{
 	background: rgba(95,58,53,0.5);
 	/*background: -moz-linear-gradient(top, rgba(223,234,241,0.7) 0%, rgba(15,99,144,1) 100%);
@@ -131,6 +133,21 @@ figure .trasera p {
 	font-size: 14px;
 }
 
+.boton-empresa a .btn .btn-secondary .btn-lg {
+  text-decoration: none;
+  margin-bottom:5rem;
+  }
+
+.btn-outline-secondary {
+  color: $noveno;
+  background-color: transparent;
+  border-color:$noveno;
+  border-radius:0px;  }
+
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+  color: #F9F9F9;
+  background-color: #FF6E40;
+  border-color: #FF6E40; }
 
 @media screen and (max-width: 992px) { 
 	figure .trasera {
