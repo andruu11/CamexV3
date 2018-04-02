@@ -4,6 +4,10 @@
   src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
 
 @font-face {
+  font-family: 'JosefinSans-SemiBold';
+  src: url(../fonts/JosefinSans-SemiBold.ttf); }
+
+@font-face {
   font-family: 'SegoeUI';
   src: url(../fonts/SegoeUI.ttf); }
 
@@ -32,7 +36,8 @@
 
 .titulo-banner-principal {
   padding-top: 8.5rem;
-  font-family: "Roboto Medium", serif;
+  font-size: 3.5rem;
+  font-family: 'Myriad';
   color: #FFFFFF; }
 
 .paginas-internas-events .bienvenidos .texto-encabezado p {
@@ -45,10 +50,51 @@
 .paginas-internas-events .contenedor-events {
   padding: 3rem 0; }
 
-.paginas-internas-events a {
+.indices a {
   color: #FAFAFA;
   text-decoration: underline; }
 
 .paginas-internas-events a:hover {
   color: #FAFAFA;
   text-decoration: none; }
+
+.contenido-evento {
+  background-color: #FFFFFF;
+  padding: 1rem 0;
+  margin: 1rem 0; }
+
+.lista-eventos {
+  color: #424242; }
+
+.fecha-evento {
+  margin-bottom: 1rem;
+  color: #424242; }
+
+a.btn.btn-danger {
+  text-decoration: none;
+  margin-bottom: 5rem; }
+
+.btn-outline-danger {
+  color: #DD4E4A;
+  background-color: transparent;
+  border-color: #DD4E4A;
+  border-radius: 0px;
+  border-width: .1rem;
+  width: 147px; }
+
+.btn-outline-danger:hover, .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+  text-decoration: none;
+  color: #F9F9F9;
+  background-color: #DD4E4A;
+  border-color: #DD4E4A; }
+
+hr.linea-fecha-evento {
+  background-color: #DD4E4A;
+  height: .1rem; }
+
+.fecha-evento,
+.imagen-evento,
+.letras-eventos,
+.primerbtn,
+.segundobtn {
+  margin-bottom: 1rem; }

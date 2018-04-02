@@ -12,7 +12,8 @@
 }
 .titulo-banner-principal{
 	padding-top: 8.5rem;
-	font-family: $roboto-medium;
+	font-size: 3.5rem;
+	font-family: 'Myriad';
 	color:$decimo;
 }
 
@@ -27,7 +28,7 @@
 .paginas-internas-events .contenedor-events  {
   padding: 3rem 0; }
 
- .paginas-internas-events a{
+.indices a{
 	color: $septimo;
 	text-decoration: underline;
 }
@@ -35,3 +36,45 @@
 	color: $septimo;
 	text-decoration: none;
 }
+.contenido-evento{
+	background-color:$decimo;
+	padding: 1rem 0;
+	margin: 1rem 0;
+}
+.lista-eventos{
+	color: $cuarto;
+}
+.fecha-evento{
+	margin-bottom: 1rem;
+	color:$cuarto;
+}
+a.btn.btn-danger {
+  text-decoration: none;
+  margin-bottom:5rem;
+  }
+
+.btn-outline-danger {
+  color: $noveno;
+  background-color: transparent;
+  border-color:$noveno;
+  border-radius:0px;  
+		border-width:.1rem; 
+		width:147px;}
+
+.btn-outline-danger:hover, .btn-outline-secondary:focus, .btn-outline-secondary.focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .show > .btn-outline-secondary.dropdown-toggle {
+   text-decoration: none;
+  color: $octavo;
+  background-color: $noveno;
+  border-color: $noveno; }
+  hr.linea-fecha-evento{
+  	background-color: $noveno;
+  	height:.1rem;
+  }
+.fecha-evento,
+.imagen-evento,
+.letras-eventos,
+.primerbtn,
+.segundobtn{
+	margin-bottom:1rem;
+}
+ 

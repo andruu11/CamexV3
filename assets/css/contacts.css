@@ -4,6 +4,10 @@
   src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
 
 @font-face {
+  font-family: 'JosefinSans-SemiBold';
+  src: url(../fonts/JosefinSans-SemiBold.ttf); }
+
+@font-face {
   font-family: 'SegoeUI';
   src: url(../fonts/SegoeUI.ttf); }
 
@@ -32,15 +36,16 @@
 
 .titulo-banner-principal {
   padding-top: 2rem;
+  font-size: 3.5rem;
   font-family: 'Myriad';
-  color: #212121; }
+  color: #FAFAFA; }
 
 .paginas-internas-contacts .bienvenidos .texto-encabezado p {
   padding-top: 5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 5em;
   font-family: 'Myriad';
   font-size: 1.5rem;
-  color: #212121; }
+  color: #FAFAFA; }
 
 .paginas-internas-contacts .clase-social i {
   text-decoration: none;

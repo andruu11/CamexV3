@@ -4,6 +4,10 @@
   src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
 
 @font-face {
+  font-family: 'JosefinSans-SemiBold';
+  src: url(../fonts/JosefinSans-SemiBold.ttf); }
+
+@font-face {
   font-family: 'SegoeUI';
   src: url(../fonts/SegoeUI.ttf); }
 

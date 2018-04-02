@@ -20,6 +20,10 @@ $emp: #DD4E4A;
     src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf);
 }
 @font-face {
+    font-family: 'JosefinSans-SemiBold';
+    src: url(../fonts/JosefinSans-SemiBold.ttf);
+}
+@font-face {
     font-family: 'SegoeUI';
     src: url(../fonts/SegoeUI.ttf);
 }
@@ -36,7 +40,7 @@ $emp: #DD4E4A;
    src: url(../fonts/SegoeUI.ttf);
 }
 @import "../css/fontawesome-all.min.css";
-
+$josefine: 'JosefinSans-SemiBold', serif;
 $roboto-black: 'Roboto Black', serif;
 $roboto-bold: 'Roboto Bold', serif;
 $roboto-medium: 'Roboto Medium', serif;
@@ -44,5 +48,4 @@ $roboto-regular: 'Roboto Regular', serif;
 $roboto-light: 'Roboto Light', serif;
 $roboto-thin: 'Roboto Thin', serif;
 $caviar-dreams: 'Caviar Dreams', serif;
-$myriad-pro: 'MyriadPro-Regular', serif;
 $segoe: 'SegoeUI', serif;
