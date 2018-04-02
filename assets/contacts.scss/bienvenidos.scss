@@ -1,0 +1,187 @@
+@import '_variables';
+//panel bienvenidos
+.bienvenidos{
+	background:url("../img/camex_portada.jpg") no-repeat center top;
+	color: $decimo;
+	background-size: cover;
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+}
+.titulo-banner-principal{
+font-size: 2.5rem;
+padding-top: 2rem;
+font-family: 'Myriad';
+}
+.texto-encabezado{
+ 	flex: 1 1 auto;
+}
+.contenido-banner{
+ 	padding-top:.8rem;
+ 	font-family: $roboto-light;
+}
+.btn-revista{
+	padding:20px 5px;
+	margin-top:2.8rem;
+	transition: all 3s ease;
+}
+.letra-boton-revista{
+	font-size:.8rem;
+}
+.btn-primary 
+{
+	color: $septimo;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: $noveno; 
+}
+.btn-primary:hover
+{
+    color: $cuarto;
+    background-color: rgba(255, 242, 255, 0.5);
+    border-color: $noveno; 
+}
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, 
+.show > .btn-primary.dropdown-toggle {
+    color: $cuarto;
+    background-color: rgba(255, 242, 255, 0.5);
+    border-color: $noveno; 
+}
+.parpadea {
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+.flecha-bajar a {
+	display: inline-block;
+    font-size:4rem;
+    color: $septimo;
+    animation: swing 1s ease-in-out infinite;
+}
+
+//media queries para desktop
+@media (min-width: 768px){ 
+.bienvenidos{
+	background:url("../img/camex_portada.jpg") no-repeat center top;
+	color: $septimo;
+	background-size: cover;
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+}
+.btn-revista{
+	padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+}
+}
+@media (min-width: 992px){
+.titulo-banner-principal{
+font-size: 3.5rem;
+padding-top: 7rem;
+}
+.texto-encabezado{
+ 	flex: 1 1 auto;
+ 	font-size: 1.1rem;
+}
+.contenido-banner{
+ 	padding-top:1rem;
+}
+.btn-revista{
+	padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 4.5rem;
+}
+.letra-boton-revista{
+	font-size:1.1rem;
+}
+}
+//mediaqueries para responsive
+@media (max-width: 318px) { 
+.letra-boton-revista{
+	font-size:.6rem;
+}
+}
+//media queries landscape
+@media (max-width: 768px) and (orientation: landscape) { 
+.bienvenidos{
+	height: 150%;
+}
+.btn-revista{
+	margin-top: .2rem;
+}
+.btn-revista{
+	padding:15px 10px;
+	margin-top:.1rem;
+	transition: all 3s ease;
+}
+.titulo-banner-principal{
+font-size: 2rem;
+padding-top: .3rem;
+}
+.flecha-bajar a {
+    font-size:2rem;
+ }
+}
+//media queries landscape
+@media (width: 812px) and (orientation: landscape) { 
+.bienvenidos{
+	height: 100%;
+}
+.btn-revista{
+	margin-top: .2rem;
+}
+.btn-revista{
+	padding:15px 10px;
+	margin-top:.1rem;
+	transition: all 3s ease;
+}
+.titulo-banner-principal{
+font-size: 2rem;
+padding-top: .3rem;
+}
+.flecha-bajar a {
+    font-size:2rem;
+ }
+}
+
+//efecto de flecha bajada
+ @keyframes swing
+{
+from
+{
+transform: translateY(0px);
+}
+50%
+{
+transform: translateY(6px);
+}
+to
+{
+transform: translateY(0);
+}
+}
+//parpadeo de boton
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.5; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.5; }
+  100% { opacity: 1.0; }
+}

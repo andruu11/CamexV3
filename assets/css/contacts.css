@@ -1,0 +1,69 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: "Myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Myriad-Pro_31655.ttf); }
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/SegoeUI.ttf); }
+
+.paginas-internas-contacts .bienvenidos {
+  background: url("../img/camex_portada_contactos.jpg") no-repeat center top;
+  color: #212121;
+  background-size: cover;
+  height: 60%; }
+
+.paginas-internas-contacts .ruta {
+  background: #DD4E4A;
+  color: #FAFAFA;
+  padding: .8rem 0; }
+
+.titulo-banner-principal {
+  padding-top: 2rem;
+  font-family: 'Myriad';
+  color: #212121; }
+
+.paginas-internas-contacts .bienvenidos .texto-encabezado p {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  font-family: 'Myriad';
+  font-size: 1.5rem;
+  color: #212121; }
+
+.paginas-internas-contacts .clase-social i {
+  text-decoration: none;
+  color: #424242;
+  padding-bottom: rem; }
+
+.paginas-internas-contacts .contenedor-contacts {
+  padding: 3rem 0; }
+
+.paginas-internas-contacts .footer p {
+  padding-top: 2.5rem; }
+
+.paginas-internas-contacts a {
+  color: #FAFAFA;
+  text-decoration: underline; }
+
+.paginas-internas-contacts a:hover {
+  color: #FAFAFA;
+  text-decoration: none; }
+
+.facebook-plug, .twitter-plug {
+  margin-top: 3rem; }
+
+@media (min-width: 1200px) {
+  .facebook-plug, .twitter-plug {
+    margin-top: 0rem; } }

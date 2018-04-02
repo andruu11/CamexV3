@@ -1,0 +1,53 @@
+@import '_variables';
+.paginas-internas-contacts .bienvenidos{
+	background:url("../img/camex_portada_contactos.jpg") no-repeat center top;
+	color: $tercero;
+	background-size: cover;
+	height: 60%;
+}
+.paginas-internas-contacts .ruta{
+	background: $noveno;
+	color: $septimo;
+	padding: .8rem 0;
+}
+.titulo-banner-principal{
+	padding-top: 2rem;
+	font-family: 'Myriad';
+	color:$tercero;
+}
+
+.paginas-internas-contacts .bienvenidos .texto-encabezado p{
+	padding-top: 5rem;
+	padding-bottom:10rem;
+	font-family: 'Myriad';
+	font-size:1.5rem;
+	color:$tercero;
+}
+
+.paginas-internas-contacts .clase-social i {
+  text-decoration: none;
+  color: #424242;
+  padding-bottom: rem; }
+
+.paginas-internas-contacts .contenedor-contacts {
+  padding: 3rem 0; }
+
+.paginas-internas-contacts .footer p {
+  padding-top: 2.5rem; }
+
+ .paginas-internas-contacts a{
+	color: $septimo;
+	text-decoration: underline;
+}
+.paginas-internas-contacts a:hover{
+	color: $septimo;
+	text-decoration: none;
+}
+.facebook-plug, .twitter-plug{
+	margin-top:3rem;
+}
+@media (min-width: 1200px){
+.facebook-plug, .twitter-plug{
+	margin-top:0rem;
+}
+}

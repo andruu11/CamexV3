@@ -176,3 +176,8 @@ figure .trasera p {
   .contenedor_tarjeta:hover figure {
     -webkit-transform: perspective(600px) rotateY(0deg);
     transform: perspective(600px) rotateY(0deg); } }
+
+@media screen and (max-width: 992px) {
+  figure {
+    width: 250px;
+    height: 300px; } }

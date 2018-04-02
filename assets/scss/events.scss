@@ -1,0 +1,37 @@
+@import '_variables';
+.paginas-internas-events .bienvenidos{
+	background:url("../img/camex_portada_eventos.jpg") no-repeat center top;
+	color: $tercero;
+	background-size: cover;
+	height: 60%;
+}
+.paginas-internas-events .ruta{
+	background: $noveno;
+	color: $septimo;
+	padding: .8rem 0;
+}
+.titulo-banner-principal{
+	padding-top: 8.5rem;
+	font-family: $roboto-medium;
+	color:$decimo;
+}
+
+.paginas-internas-events .bienvenidos .texto-encabezado p{
+	padding-top: 1rem;
+	padding-bottom:10rem;
+	font-family: $roboto-light;
+	font-size:1.2rem;
+	color:$decimo;
+}
+
+.paginas-internas-events .contenedor-events  {
+  padding: 3rem 0; }
+
+ .paginas-internas-events a{
+	color: $septimo;
+	text-decoration: underline;
+}
+.paginas-internas-events a:hover{
+	color: $septimo;
+	text-decoration: none;
+}

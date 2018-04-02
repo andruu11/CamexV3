@@ -1,0 +1,54 @@
+@import url(../css/fontawesome-all.min.css);
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Black.ttf), url(../fonts/Roboto-Bold.ttf), url(../fonts/Roboto-Medium.ttf), url(../fonts/Roboto-Regular.ttf), url(../fonts/Roboto-Light.ttf), url(../fonts/Roboto-Thin.ttf); }
+
+@font-face {
+  font-family: 'SegoeUI';
+  src: url(../fonts/SegoeUI.ttf); }
+
+@font-face {
+  font-family: "Myriad";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Myriad-Pro_31655.ttf); }
+
+@font-face {
+  font-family: "SegoeUI";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/SegoeUI.ttf); }
+
+.paginas-internas-events .bienvenidos {
+  background: url("../img/camex_portada_eventos.jpg") no-repeat center top;
+  color: #212121;
+  background-size: cover;
+  height: 60%; }
+
+.paginas-internas-events .ruta {
+  background: #DD4E4A;
+  color: #FAFAFA;
+  padding: .8rem 0; }
+
+.titulo-banner-principal {
+  padding-top: 8.5rem;
+  font-family: "Roboto Medium", serif;
+  color: #FFFFFF; }
+
+.paginas-internas-events .bienvenidos .texto-encabezado p {
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  font-family: "Roboto Light", serif;
+  font-size: 1.2rem;
+  color: #FFFFFF; }
+
+.paginas-internas-events .contenedor-events {
+  padding: 3rem 0; }
+
+.paginas-internas-events a {
+  color: #FAFAFA;
+  text-decoration: underline; }
+
+.paginas-internas-events a:hover {
+  color: #FAFAFA;
+  text-decoration: none; }
